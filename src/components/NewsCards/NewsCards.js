@@ -35,7 +35,7 @@ const NewsCards = ({ articles, activeArticle }) => {
             <Grid className={classes.container} container alignItems="stretch" spacing={3}>
                 {articles.map((articles, i) => (
                     <Grid item xs={12} sm={6} md={4} lg={3} style={{ display: 'flex' }}>
-                        <NewsCard articles={articles} i={i} />
+                        <NewsCard articles={articles} activeArticle={activeArticle} i={i} />
                     </Grid>
                 ))
                 }
