@@ -32,6 +32,7 @@ export default makeStyles((theme) => ({
         borderRadius: 10,
         color: 'white',
         backgroundColor: 'rgba(21, 101, 192)',
+        // background: 'linear-gradient(to right bottom,grey,white)',
         margin: '0 12px',
         textAlign: 'center',
         height: '25vmin',

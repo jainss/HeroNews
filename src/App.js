@@ -49,7 +49,7 @@ const App = () => {
 
       </div>
       <div className={classes.logoContainer}>
-        <h1>Hero News</h1>
+        <h1  >Hero get the best news for you </h1>
       </div>
       <NewsCards articles={newsArticles} activeArticle={activeArticle} />
     </div>
