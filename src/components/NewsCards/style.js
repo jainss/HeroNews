@@ -11,7 +11,7 @@ export default makeStyles({
         height: '50vh',
         borderRadius: '21px',
 
-        color: 'black',
+        // color: 'black',  
         padding: '10',
         // background: 'linear-gradient(to right bottom,#e6e600,#24f7f7)',
         // background: 'linear-gradient(to right, #e6e6e6,white)',

@@ -25,14 +25,15 @@ export default makeStyles((theme) => ({
     },
     card: {
         display: 'flex',
+
         justifyContent: 'center',
         alignItems: 'center',
         width: '50%',
         padding: '3%',
         borderRadius: 10,
-        color: 'white',
-        backgroundColor: 'rgba(21, 101, 192)',
-        // background: 'linear-gradient(to right bottom,grey,white)',
+        // color: 'black',
+        // backgroundColor: 'rgba(21, 101, 192)',
+        // background: 'linear-gradient(white, grey, white,#263a3a)',
         margin: '0 12px',
         textAlign: 'center',
         height: '25vmin',
@@ -53,17 +54,30 @@ export default makeStyles((theme) => ({
         [theme.breakpoints.down('sm')]: {
             flexDirection: 'column',
         },
+        color: 'black',
+
     },
     logoContainer: {
-        padding: '0 5%',
+        padding: '5 5%',
         display: 'flex',
         justifyContent: 'space-around',
         alignItems: 'center',
+        fontSize: '41px',
+        color: 'Black',
         width: '100%',
         [theme.breakpoints.down('sm')]: {
             flexDirection: 'column-reverse',
             textAlign: 'center',
         },
+        // background: 'black',
+
+    },
+    center: {
+        textAlign: 'center',
+        fontSize: '31px',
+        background: 'black',
+        color: '#80ffff',
+        // background: 'linear-gradient(white, grey, white,#263a3a)',
     },
     alanLogo: {
         height: '27vmin',
@@ -73,5 +87,6 @@ export default makeStyles((theme) => ({
         [theme.breakpoints.down('sm')]: {
             height: '35vmin',
         },
+        background: 'black',
     },
 }));
