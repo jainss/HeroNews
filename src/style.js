@@ -77,7 +77,7 @@ export default makeStyles((theme) => ({
         fontSize: '31px',
         background: 'black',
         color: '#80ffff',
-        // background: 'linear-gradient(white, grey, white,#263a3a)',
+        // background: 'linear-gradient(white, grey, white,#263a3a)',   
     },
     alanLogo: {
         height: '27vmin',

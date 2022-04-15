@@ -44,16 +44,18 @@ const App = () => {
   }, []);
 
   return (
-    <div className={classes.center}>
-      <div className={classes.logoContainer}>
-        <img src="https://www.looper.com/img/gallery/dragon-ball-super-super-hero-release-date-characters-and-plot-what-we-know-so-far/intro-1628825810.webp" className={classes.alanLogo} alt="logo" />
+    <>
+      <div className={classes.center}>
+        <div className={classes.logoContainer}>
+          <img src="https://www.looper.com/img/gallery/dragon-ball-super-super-hero-release-date-characters-and-plot-what-we-know-so-far/intro-1628825810.webp" className={classes.alanLogo} alt="logo" />
 
+        </div>
+        <div >
+          <h1  >Hero get the best news for you </h1>
+        </div>
+        <NewsCards articles={newsArticles} activeArticle={activeArticle} />
       </div>
-      <div >
-        <h1  >Hero get the best news for you </h1>
-      </div>
-      <NewsCards articles={newsArticles} activeArticle={activeArticle} />
-    </div>
+    </>
   );
 }
 

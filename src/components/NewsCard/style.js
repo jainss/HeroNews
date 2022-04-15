@@ -13,15 +13,16 @@ export default makeStyles({
     },
     card: {
         display: 'flex',
-        borderRadius: '30',
-        margin: '10px',
+        borderRadius: '30px',
+        margin: '4px',
+        border: '3px solid white',
         flexDirection: 'column',
-        background: 'linear-gradient(to right, #e6e6e6,white)',
+        background: 'linear-gradient(to right, #faf738,#24f7f7)',
         justifyContent: 'space-between',
-        borderBottom: '21px solid black',
+        // borderBottom: '21px solid #00ffff ',
     },
     activeCard: {
-        borderBottom: '10px black #faf738',
+        borderBottom: '10px black #80ffffs',
     },
     grid: {
         display: 'flex',
