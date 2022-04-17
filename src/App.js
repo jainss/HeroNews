@@ -10,7 +10,7 @@ const App = () => {
   const [activeArticle, setActiveArticle] = useState(0);
   const classes = useStyle();
   useEffect(() => {
-    document.title = "Hero News "
+    document.title = "HeroNews "
     const alanAPI = async () => {
       alanBtn({
         key: "4e636b232bd1994a5b31f77296aa61332e956eca572e1d8b807a3e2338fdd0dc/stage",
@@ -54,6 +54,7 @@ const App = () => {
         <div >
           <h1>HeroNews</h1>
           <h2  >🦸‍♂️ Hero's get the Daily news 📰for you  </h2>
+          <h4>A Creation for HeroHackII</h4>
         </div>
         <NewsCards articles={newsArticles} activeArticle={activeArticle} />
       </div>
